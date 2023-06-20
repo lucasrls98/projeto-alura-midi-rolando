@@ -8,7 +8,7 @@ const listaDeTeclas = document.querySelectorAll(".tecla")
 let contador = 0;
 
 
-while(contador < listaDeTeclas.length){
+for (let contador = 0; contador < listaDeTeclas.length; contador ++){
 
     const tecla = listaDeTeclas[contador]
 
@@ -22,7 +22,7 @@ while(contador < listaDeTeclas.length){
         tocaSom(idAudio)
     }
 
-    contador = contador + 1
+    
 
     // console.log(contador)
 }
